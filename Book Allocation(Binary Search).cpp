@@ -13,6 +13,7 @@ bool isPossible(int arr[], int n, int m, int tempSol) {
             studentCount++;
             if(studentCount>m||arr[i]>tempSol)
                 return false;
+            pageSum=arr[i];
         }
     }
     return true;
